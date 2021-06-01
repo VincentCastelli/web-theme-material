@@ -1,7 +1,7 @@
 import React from 'react'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
-export const ThemeRC = (props) => {
+export default function ThemeRC(props) {
   // base values
   const borderRadius = 4;
   const spacing = 8;

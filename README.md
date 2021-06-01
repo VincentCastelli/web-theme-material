@@ -13,15 +13,16 @@ npm install --save web-theme-material
 ## Usage
 
 ```jsx
-import { ThemeRC } from 'web-theme-material';
+...
+import ThemeO2 from 'web-theme-material';
 
 function App() {
   return (
-    <ThemeRC>
+    <ThemeO2>
       <div className="App">
         <Slider />
       </div>
-    </ThemeRC>
+    </ThemeO2>
   );
 }
 
