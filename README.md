@@ -20,7 +20,7 @@ function App() {
   return (
     <ThemeO2>
       <div className="App">
-        <Slider />
+        <OtherComponents />
       </div>
     </ThemeO2>
   );
