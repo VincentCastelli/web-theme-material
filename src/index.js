@@ -3,12 +3,12 @@ import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 
 export default function ThemeRC(props) {
   // base values
-  const borderRadius = 4;
-  const spacing = 8;
+  const borderRadius = props.borderRadius;
+  const spacing = props.spacing;
   // colors
-  const primaryColor = "#0A84FF";
-  const buttonBorderColor = "rgba(0, 0, 0, 0.12)";
-  const lightBackground = "#ffffff";
+  const primaryColor = props.primaryColor;
+  const buttonBorderColor = props.buttonBorderColor;
+  const lightBackground = props.lightBackground;
 
 
   const O2theme = createMuiTheme({
@@ -74,4 +74,12 @@ export default function ThemeRC(props) {
       {props.children}
     </ThemeProvider>
   );
+}
+
+ThemeRC.defaultProps = {
+  borderRadius: 4,
+  spacing: 8,
+  primaryColor: "#0A84FF",
+  buttonBorderColor: "rgba(0, 0, 0, 0.12)",
+  lightBackground: "#ffffff"
 }

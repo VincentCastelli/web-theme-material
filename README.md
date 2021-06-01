@@ -18,7 +18,7 @@ import ThemeO2 from 'web-theme-material';
 
 function App() {
   return (
-    <ThemeO2>
+    <ThemeO2 primaryColor="#D31B1B" borderRadius={24}>
       <div className="App">
         <OtherComponents />
       </div>
