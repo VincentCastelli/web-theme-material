@@ -1,10 +1,10 @@
 {
-  "name": "o2-styles-and-components",
+  "name": "web-theme-material",
   "version": "1.0.0",
-  "description": "stylesheet and components reflecting the O2 design guidelines",
+  "description": "This is a React component that provides a Ridecell theme for a Material-ui web app.",
   "author": "sgganche",
   "license": "MIT",
-  "repository": "sgganche/o2-styles-and-components",
+  "repository": "Ridecell/web-theme-material",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",

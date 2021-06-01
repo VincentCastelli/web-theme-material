@@ -1,6 +1,6 @@
-# o2-styles-and-components
+# Web theme for Material-ui apps
 
-> stylesheet and components reflecting the O2 design guidelines
+> This is a React component that provides a Ridecell theme for a Material-ui web app.
 
 [![NPM](https://img.shields.io/npm/v/o2-styles-and-components.svg)](https://www.npmjs.com/package/o2-styles-and-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
