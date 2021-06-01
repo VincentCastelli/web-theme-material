@@ -7,22 +7,25 @@
 ## Install
 
 ```bash
-npm install --save o2-styles-and-components
+npm install --save web-theme-material
 ```
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import { ThemeRC } from 'web-theme-material';
 
-import MyComponent from 'o2-styles-and-components'
-import 'o2-styles-and-components/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+function App() {
+  return (
+    <ThemeRC>
+      <div className="App">
+        <Slider />
+      </div>
+    </ThemeRC>
+  );
 }
+
+export default App;
 ```
 
 ## License
