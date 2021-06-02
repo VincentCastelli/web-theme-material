@@ -1,5 +1,5 @@
 {
-  "name": "web-theme-material",
+  "name": "@ridecell/web-theme-material",
   "version": "1.0.0",
   "description": "This is a React component that provides a Ridecell theme for a Material-ui web app.",
   "author": "sgganche",
